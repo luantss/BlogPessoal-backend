@@ -6,7 +6,7 @@ public class UserLogin {
 	
 	private String nome;
 
-	private String usuario;
+	private String usuarioLogin;
 
 	private String senha;
 
@@ -14,10 +14,10 @@ public class UserLogin {
 
 	private String token;
 
-	public UserLogin(Long id, String nome, String usuario, String senha, String foto, String token) {
+	public UserLogin(Long id, String nome, String usuarioLogin, String senha, String foto, String token) {
 		this.id = id;
 		this.nome = nome;
-		this.usuario = usuario;
+		this.usuarioLogin = usuarioLogin;
 		this.senha = senha;
 		this.foto = foto;
 		this.token = token;
@@ -39,12 +39,12 @@ public class UserLogin {
 		this.nome = nome;
 	}
 
-	public String getUsuario() {
-		return usuario;
+	public String getUsuarioLogin() {
+		return usuarioLogin;
 	}
 
-	public void setUsuario(String usuario) {
-		this.usuario = usuario;
+	public void setUsuarioLogin(String usuarioLogin) {
+		this.usuarioLogin = usuarioLogin;
 	}
 
 	public String getSenha() {
